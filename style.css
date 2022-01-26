@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  font-family: "Spartan", sans-serif;
+}
+
+.header div {
+  display: flex;
+  justify-content: flex-end;
+}
+.header .link-btn {
+  font-weight: 400;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: black;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.header .link-btn:hover {
+  cursor: pointer;
+}
+
+section {
+  clear: both;
+  height: calc(100vh - 26px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .content {
+  transform: translateY(-50%);
+}
+section .content #text-google {
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+section .content #text-google .g {
+  color: #4285F4;
+}
+section .content #text-google .o {
+  color: #DB4437;
+}
+section .content #text-google .o2 {
+  color: #F4B400;
+}
+section .content #text-google .l {
+  color: #0F9D58;
+}
+section .content #text-google #e {
+  transform: rotate(-20deg);
+  display: inline-block;
+}
+section .content .for-input-icon {
+  position: relative;
+}
+section .content .for-input-icon #text-input {
+  width: 600px;
+  height: 45px;
+  border-radius: 200px;
+  border: 1px solid rgba(182, 181, 181, 0.507);
+  outline: none;
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+}
+section .content .for-input-icon .search-icon {
+  position: absolute;
+  color: #969494;
+  left: 20px;
+  top: 13px;
+  pointer-events: none;
+}
+section .content .for-input-icon .mick-icon {
+  position: absolute;
+  font-size: 20px;
+  background: -moz-linear-gradient(top, #4285F4 0%, #DB4437 100%);
+  background: -webkit-linear-gradient(top, #4285F4 0%, #DB4437 100%);
+  background: linear-gradient(to bottom, #4285F4 0%, #DB4437 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  right: 20px;
+  top: 13px;
+  cursor: pointer;
+}
+section .content .submit-lucky {
+  margin-top: 30px;
+  margin-left: 160px;
+}
+section .content .submit-lucky .lucky-btn, section .content .submit-lucky .q-submit {
+  padding: 10px 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  border: 1px solid #fff;
+  background-color: ghostwhite;
+  margin-right: 10px;
+  color: #1d1c1c;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+section .content .submit-lucky .lucky-btn:hover, section .content .submit-lucky .q-submit:hover {
+  border: 1px solid rgba(231, 225, 225, 0.815);
+}
+
+/*# sourceMappingURL=style.css.map */

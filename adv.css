@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  font-family: "Spartan", sans-serif;
+}
+
+header {
+  background-color: #f1f1f1;
+  height: 60px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+header #text-google {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-left: 15px;
+  width: fit-content;
+}
+header #text-google a {
+  text-decoration: none;
+}
+header #text-google .g {
+  color: #4285F4;
+}
+header #text-google .o {
+  color: #DB4437;
+}
+header #text-google .o2 {
+  color: #F4B400;
+}
+header #text-google .l {
+  color: #0F9D58;
+}
+header #text-google #e {
+  transform: rotate(-20deg);
+  display: inline-block;
+}
+header div {
+  width: fit-content;
+}
+header .link-btn {
+  font-weight: 400;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: black;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+header .link-btn:hover {
+  cursor: pointer;
+}
+
+.adv-search-text {
+  height: 75px;
+  padding-top: 28px;
+  padding-left: 40px;
+  font-size: 19px;
+  letter-spacing: -1px;
+  color: #DB4437;
+  font-weight: 600;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section {
+  padding-left: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+section .font-n {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin-bottom: 30px;
+}
+section .txt-fld {
+  margin: 40px 0;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+section .txt-fld label {
+  padding-top: 8px;
+}
+section .txt-fld .input-cls {
+  width: 600px;
+  height: 35px;
+  position: absolute;
+  left: 220px;
+  border: 1px solid lightgrey;
+  border-top: 1px solid #c5c1c1;
+  outline: #4285F4;
+  padding-left: 15px;
+}
+section .txt-fld .input-cls:focus {
+  border: 1px solid #4285F4;
+  box-shadow: inset 0 0 2px #4285F4;
+}
+section .for-flex {
+  margin: 40px 0;
+  display: flex;
+}
+section .for-flex .btn-div {
+  width: 600px;
+  height: 35px;
+  position: absolute;
+  left: 220px;
+}
+section .for-flex .btn-div .submit-adv {
+  padding: 10px 20px;
+  float: right;
+  font-weight: 600;
+  border: 1px solid rgba(66, 65, 65, 0.438);
+  background-color: #4d90fe;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+}
+section .for-flex .btn-div .submit-adv:hover {
+  background-color: #3480fe;
+  cursor: pointer;
+  border: 1px solid rgba(66, 65, 65, 0.438);
+}
+
+@media (max-width: 1240px) {
+  section .txt-fld .input-cls {
+    max-width: 50%;
+  }
+
+  section .for-flex .btn-div {
+    max-width: 50%;
+  }
+}
+
+/*# sourceMappingURL=adv.css.map */
